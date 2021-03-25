@@ -1,6 +1,2 @@
 Get-LocalUser
 $Password = Read-Host "Enter the new password" -AsSecureString
-juwdemannen
-$UserAccount = Get-LocalUser -Name "Administrator"
-$UserAccount | Set-LocalUser -Password $Password
-logoff
